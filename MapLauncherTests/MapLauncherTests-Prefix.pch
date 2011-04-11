@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MapLauncherTests' target in the 'MapLauncherTests' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
