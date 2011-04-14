@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F2186DA135588CF00BA3728 /* sc2.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1F2186D9135588CF00BA3728 /* sc2.icns */; };
 		1F8B3F6A13530EC2006FE6F3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8B3F6913530EC2006FE6F3 /* Cocoa.framework */; };
 		1F8B3F7413530EC2006FE6F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B3F7213530EC2006FE6F3 /* InfoPlist.strings */; };
 		1F8B3F7713530EC2006FE6F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B3F7613530EC2006FE6F3 /* main.m */; };
@@ -17,6 +18,7 @@
 		1F8B3F8F13530EC3006FE6F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B3F8D13530EC3006FE6F3 /* InfoPlist.strings */; };
 		1F8B3F9213530EC3006FE6F3 /* MapLauncherTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1F8B3F9113530EC3006FE6F3 /* MapLauncherTests.h */; };
 		1F8B3F9413530EC3006FE6F3 /* MapLauncherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B3F9313530EC3006FE6F3 /* MapLauncherTests.m */; };
+		1F8B3FA713537D9C006FE6F3 /* SC2Arguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8B3FA613537D9C006FE6F3 /* SC2Arguments.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,25 +32,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F2186D9135588CF00BA3728 /* sc2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = sc2.icns; path = ../sc2.icns; sourceTree = "<group>"; };
 		1F8B3F6513530EC2006FE6F3 /* MapLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8B3F6913530EC2006FE6F3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1F8B3F6C13530EC2006FE6F3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		1F8B3F6D13530EC2006FE6F3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		1F8B3F6E13530EC2006FE6F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1F8B3F7113530EC2006FE6F3 /* MapLauncher-Info.plist */ = {isa = PBXFileReference; path = "MapLauncher-Info.plist"; sourceTree = "<group>"; };
+		1F8B3F7113530EC2006FE6F3 /* MapLauncher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapLauncher-Info.plist"; sourceTree = "<group>"; };
 		1F8B3F7313530EC2006FE6F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1F8B3F7513530EC2006FE6F3 /* MapLauncher-Prefix.pch */ = {isa = PBXFileReference; path = "MapLauncher-Prefix.pch"; sourceTree = "<group>"; };
+		1F8B3F7513530EC2006FE6F3 /* MapLauncher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapLauncher-Prefix.pch"; sourceTree = "<group>"; };
 		1F8B3F7613530EC2006FE6F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F8B3F7913530EC2006FE6F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		1F8B3F7B13530EC2006FE6F3 /* MapLauncherAppDelegate.h */ = {isa = PBXFileReference; path = MapLauncherAppDelegate.h; sourceTree = "<group>"; };
+		1F8B3F7B13530EC2006FE6F3 /* MapLauncherAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapLauncherAppDelegate.h; sourceTree = "<group>"; };
 		1F8B3F7C13530EC2006FE6F3 /* MapLauncherAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapLauncherAppDelegate.m; sourceTree = "<group>"; };
 		1F8B3F7F13530EC3006FE6F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1F8B3F8613530EC3006FE6F3 /* MapLauncherTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapLauncherTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F8B3F8C13530EC3006FE6F3 /* MapLauncherTests-Info.plist */ = {isa = PBXFileReference; path = "MapLauncherTests-Info.plist"; sourceTree = "<group>"; };
+		1F8B3F8C13530EC3006FE6F3 /* MapLauncherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapLauncherTests-Info.plist"; sourceTree = "<group>"; };
 		1F8B3F8E13530EC3006FE6F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1F8B3F9013530EC3006FE6F3 /* MapLauncherTests-Prefix.pch */ = {isa = PBXFileReference; path = "MapLauncherTests-Prefix.pch"; sourceTree = "<group>"; };
+		1F8B3F9013530EC3006FE6F3 /* MapLauncherTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapLauncherTests-Prefix.pch"; sourceTree = "<group>"; };
 		1F8B3F9113530EC3006FE6F3 /* MapLauncherTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapLauncherTests.h; sourceTree = "<group>"; };
 		1F8B3F9313530EC3006FE6F3 /* MapLauncherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapLauncherTests.m; sourceTree = "<group>"; };
+		1F8B3FA513537D9C006FE6F3 /* SC2Arguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SC2Arguments.h; sourceTree = "<group>"; };
+		1F8B3FA613537D9C006FE6F3 /* SC2Arguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SC2Arguments.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +121,8 @@
 				1F8B3F7C13530EC2006FE6F3 /* MapLauncherAppDelegate.m */,
 				1F8B3F7E13530EC3006FE6F3 /* MainMenu.xib */,
 				1F8B3F7013530EC2006FE6F3 /* Supporting Files */,
+				1F8B3FA513537D9C006FE6F3 /* SC2Arguments.h */,
+				1F8B3FA613537D9C006FE6F3 /* SC2Arguments.m */,
 			);
 			path = MapLauncher;
 			sourceTree = "<group>";
@@ -123,6 +130,7 @@
 		1F8B3F7013530EC2006FE6F3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1F2186D9135588CF00BA3728 /* sc2.icns */,
 				1F8B3F7113530EC2006FE6F3 /* MapLauncher-Info.plist */,
 				1F8B3F7213530EC2006FE6F3 /* InfoPlist.strings */,
 				1F8B3F7513530EC2006FE6F3 /* MapLauncher-Prefix.pch */,
@@ -225,6 +233,7 @@
 				1F8B3F7413530EC2006FE6F3 /* InfoPlist.strings in Resources */,
 				1F8B3F7A13530EC2006FE6F3 /* Credits.rtf in Resources */,
 				1F8B3F8013530EC3006FE6F3 /* MainMenu.xib in Resources */,
+				1F2186DA135588CF00BA3728 /* sc2.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +271,7 @@
 			files = (
 				1F8B3F7713530EC2006FE6F3 /* main.m in Sources */,
 				1F8B3F7D13530EC2006FE6F3 /* MapLauncherAppDelegate.m in Sources */,
+				1F8B3FA713537D9C006FE6F3 /* SC2Arguments.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +454,7 @@
 				1F8B3F9913530EC3006FE6F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F8B3F9A13530EC3006FE6F3 /* Build configuration list for PBXNativeTarget "MapLauncherTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +463,7 @@
 				1F8B3F9C13530EC3006FE6F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
